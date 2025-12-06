@@ -13,23 +13,23 @@ body {
 .title_container {
   font-size: 50px;
 }
- .boxes_container{
-    margin-right: 35%;
-    
-} 
-
- .first_box {
-  width: 50px;
-  height: 30px;
-  border: 1px solid black;
-  margin-left: 50%;
-  background-color: white;
+.boxes_container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
   
-} 
- .second_box {
+}
+
+.first_box {
   width: 50px;
   height: 30px;
   border: 1px solid black;
-  margin-left: 50%;
   background-color: white;
-}  
+}
+
+.second_box {
+  width: 50px;
+  height: 30px;
+  border: 1px solid black;
+  background-color: white;
+}
